@@ -70,7 +70,7 @@ The Casino class is where the simple war game for the assignment is implemented.
 
 After each round, the cards that the user and computer have drawn for that round are discarded. Furthermore, the user will be asked if they want to keep playing at the end of each round. The user can respond with any word starting with "Y" (for yes) or "N" (for no). The case of the user's input doesn't matter, so they can be either lower case or upper case, so long as it begins with one of the two accepted letters. The game continues until the user says that they no longer want to play. 
 
-The above is what was necessary for the core of this assignment, but there were choices that were left up to the students regarding the design of the game. The following are some specifications for my impletmentation of the assignment assignment: 
+The above is what was necessary for the core of this assignment, but there were choices that were left up to the students regarding the design of the game. The following are some specifications for my implementation of the assignment: 
 
 * When/if the user runs out of money, they will be asked whether they would like to keep playing. If they say yes, they will be required to deposit more money so that they can keep making bets. If they say no, the game/program will end. 
 * The game implements a minimum and maximum betting range. The range will be between 1% and 10% of their starting value (inclusive). The user is able to change the value of their bet at the start of every round. The minimum and maximum bet values are only recalculated when more funds are added by the user. 
